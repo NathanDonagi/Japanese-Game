@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="static/assets/images/compass.png">
+    <title>{{title}}</title>
+    {% for file in css_files %}
+      <link rel="stylesheet" href={{file}}>
+    {% endfor %}
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.162.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.162.0/examples/jsm/"
+        }
+      }
+    </script>
+</head>
+<body>
+    <div class="title">{{title}}</div>
+    {% for file in js_files %}
+      <script type="module" src = {{file}}>  </script>
+    {% endfor %}
+</script>
+</body>
+</html>

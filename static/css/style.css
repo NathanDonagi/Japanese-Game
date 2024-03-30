@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy&display=swap);
+
+canvas {
+    border:7px solid #00FF00;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Chewy;
+}
+html {
+   cursor: url(../assets/images/cursor.webp), auto;
+   min-height: 100%;
+   background-image: url(../assets/images/background.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+button{
+    cursor: url(../assets/images/cursor.webp), auto;
+}
+
+.server-table{
+    cursor: url(../assets/images/cursor.webp), auto;
+    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: 1px solid;
+    align-items: center;
+    background-color: #C6EEEE;
+}
+
+.row{
+    border: 1px solid;
+    background-color: #D6EEEE;
+    width: 99%;
+    margin-top: 0.35%;
+    margin-bottom: 0.35%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.abandon-button{
+    margin-left: 47%;
+    text-align: center;
+}
+
+display{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+    text-align: center;
+}
+
+flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
